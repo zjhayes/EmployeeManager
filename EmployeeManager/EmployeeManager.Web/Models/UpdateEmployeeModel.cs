@@ -1,24 +1,29 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.Linq;
+using System.Web;
 using static EmployeeManager.Domain.Entities.Employee;
 
-namespace EmployeeManager.Shared.ViewModels
+namespace EmployeeManager.Web.Models
 {
-    public class EmployeeViewModel
+    public class UpdateEmployeeModel
     {
+        [Display(Name = "Employee ID")]
         public Guid EmployeeId { get; set; }
+        [Display(Name = "First Name")]
         public string FirstName { get; set; }
+        [Display(Name = "Middle Name")]
         public string MiddleName { get; set; }
-        public string MiddleInitial { get; set; }
+        [Display(Name = "Last Name")]
         public string LastName { get; set; }
+        [Display(Name = "Date Hired")]
         public DateTime DateHired { get; set; }
-        public string DateHiredString => DateHired.ToString("MM/dd/yyyy");
+        [Display(Name = "Date of Birth")]
         public DateTime BirthDate { get; set; }
-        public string BirthDateString => BirthDate.ToString("MM/dd/yyyy");
         public decimal Salary { get; set; }
-        public string SalaryString => Salary.ToString();
         public RecurrenceInterval Recurrence { get; set; }
-        public string RecurrenceString => Recurrence.ToString();
+        [Display(Name = "Job Title")]
         public string JobTitle { get; set; }
         public string Department { get; set; }
         public string Availability { get; set; }

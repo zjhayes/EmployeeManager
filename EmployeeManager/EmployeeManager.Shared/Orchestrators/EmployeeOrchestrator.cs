@@ -57,5 +57,59 @@ namespace EmployeeManager.Shared.Orchestrators
 
             return employees;
         }
+
+        public async Task<EmployeeViewModel> SearchEmployee(string searchString)
+        {
+            var employee = await _employeeContext.Employees
+                .Where(x => x.FirstName.StartsWith(searchString))
+                .FirstOrDefaultAsync();
+
+            if (employee == null)
+            {
+                return new EmployeeViewModel();
+            }
+
+            var viewModel = new EmployeeViewModel
+            {
+                EmployeeId = employee.EmployeeId,
+                FirstName = employee.FirstName,
+                MiddleName = employee.MiddleName,
+                LastName = employee.LastName,
+                DateHired = employee.DateHired,
+                BirthDate = employee.BirthDate,
+                Salary = employee.Salary,
+                Recurrence = employee.Recurrence,
+                JobTitle = employee.JobTitle,
+                Department = employee.Department,
+                Availability = employee.Availability
+            };
+
+            return viewModel;
+        }
+
+        public async Task<bool> UpdateEmployee(EmployeeViewModel employee)
+        {
+            var updateEntity = await _employeeContext.Employees.FindAsync(employee.EmployeeId);
+
+            if(updateEntity == null)
+            {
+                return false;
+            }
+
+            updateEntity.FirstName = employee.FirstName;
+            updateEntity.MiddleName = employee.MiddleName;
+            updateEntity.LastName = employee.LastName;
+            updateEntity.DateHired = employee.DateHired;
+            updateEntity.BirthDate = employee.BirthDate;
+            updateEntity.Salary = employee.Salary;
+            updateEntity.Recurrence = employee.Recurrence;
+            updateEntity.JobTitle = employee.JobTitle;
+            updateEntity.Department = employee.Department;
+            updateEntity.Availability = employee.Availability;
+
+            await _employeeContext.SaveChangesAsync();
+
+            return true;
+        }
     }
 }
