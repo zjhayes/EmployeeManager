@@ -5,25 +5,24 @@
 <html>
 <head>
 	<meta name="viewport" content="width=device-width" />
-	<title>Employee Manager</title>
+	<title>View All Employees</title>
 </head>
 <body>
 	<div class="container">
-		<h2>Employees</h2>
+		<h2>All Employees</h2>
 		<div class="table-responsive">
 			<table class="table table-bordered">
-				<thead>
+				<thead class="thead-dark">
 					<tr>
+						<th>Employee ID</th>
 						<th>First Name</th>
 						<th>Middle Name</th>
 						<th>Last Name</th>
 						<th>Date Hired</th>
-						<th>Birth Date</th>
 						<th>Salary</th>
-						<th>Recurrence</th>
+						<th>Salary Type</th>
 						<th>Job Title</th>
 						<th>Department</th>
-						<th>Availability</th>
 					</tr>
 				</thead>
 				<tbody>
@@ -31,19 +30,19 @@
 					{
 						<tr>
 							<td>
+								@employee.EmployeeId
+							</td>
+							<td>
 								@employee.FirstName
 							</td>
 							<td>
-								@employee.MiddleName
+								@employee.MiddleInitial
 							</td>
 							<td>
 								@employee.LastName
 							</td>
 							<td>
 								@employee.DateHiredString
-							</td>
-							<td>
-								@employee.BirthDateString
 							</td>
 							<td>
 								@employee.SalaryString
@@ -56,9 +55,6 @@
 							</td>
 							<td>
 								@employee.Department
-							</td>
-							<td>
-								@employee.Availability
 							</td>
 						</tr>
 					}

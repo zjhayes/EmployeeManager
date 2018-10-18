@@ -9,6 +9,7 @@ namespace EmployeeManager.Shared.ViewModels
         public Guid EmployeeId { get; set; }
         public string FirstName { get; set; }
         public string MiddleName { get; set; }
+        public string MiddleInitial => MiddleName.Substring(0,1);
         public string LastName { get; set; }
         public DateTime DateHired { get; set; }
         public string DateHiredString => DateHired.ToString("MM/dd/yyyy");
