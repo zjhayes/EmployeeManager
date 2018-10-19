@@ -32,7 +32,8 @@ namespace EmployeeManager.Shared.Orchestrators
                 Salary = employee.Salary,
                 Recurrence = employee.Recurrence,
                 JobTitle = employee.JobTitle,
-                Department = employee.Department
+                Department = employee.Department,
+                Availability = employee.Availability
             });
 
             return await _employeeContext.SaveChangesAsync();
