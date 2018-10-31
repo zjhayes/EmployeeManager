@@ -13,3 +13,5 @@ C:\Users\zacha\Google Drive\Documents\DMACC\Advanced C#\EmployeeManager\Employee
 C:\Users\zacha\Google Drive\Documents\DMACC\Advanced C#\EmployeeManager\EmployeeManager\EmployeeManager\EmployeeManager.Shared\obj\Debug\EmployeeManager.Shared.csproj.CopyComplete
 C:\Users\zacha\Google Drive\Documents\DMACC\Advanced C#\EmployeeManager\EmployeeManager\EmployeeManager\EmployeeManager.Shared\obj\Debug\EmployeeManager.Shared.dll
 C:\Users\zacha\Google Drive\Documents\DMACC\Advanced C#\EmployeeManager\EmployeeManager\EmployeeManager\EmployeeManager.Shared\obj\Debug\EmployeeManager.Shared.pdb
+C:\Users\zacha\Google Drive\Documents\DMACC\Advanced C#\EmployeeManager\EmployeeManager\EmployeeManager\EmployeeManager.Shared\bin\Debug\Ninject.dll
+C:\Users\zacha\Google Drive\Documents\DMACC\Advanced C#\EmployeeManager\EmployeeManager\EmployeeManager\EmployeeManager.Shared\bin\Debug\Ninject.xml

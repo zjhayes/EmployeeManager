@@ -153,3 +153,12 @@ C:\Users\zacha\Google Drive\Documents\DMACC\Advanced C#\EmployeeManager\Employee
 C:\Users\zacha\Google Drive\Documents\DMACC\Advanced C#\EmployeeManager\EmployeeManager\EmployeeManager\EmployeeManager.Web\bin\Antlr3.Runtime.pdb
 C:\Users\zacha\Google Drive\Documents\DMACC\Advanced C#\EmployeeManager\EmployeeManager\EmployeeManager\EmployeeManager.Web\bin\Newtonsoft.Json.xml
 C:\Users\zacha\Google Drive\Documents\DMACC\Advanced C#\EmployeeManager\EmployeeManager\EmployeeManager\EmployeeManager.Web\bin\System.Web.Optimization.xml
+C:\Users\zacha\Google Drive\Documents\DMACC\Advanced C#\EmployeeManager\EmployeeManager\EmployeeManager\EmployeeManager.Web\bin\Ninject.dll
+C:\Users\zacha\Google Drive\Documents\DMACC\Advanced C#\EmployeeManager\EmployeeManager\EmployeeManager\EmployeeManager.Web\bin\Ninject.Web.Common.dll
+C:\Users\zacha\Google Drive\Documents\DMACC\Advanced C#\EmployeeManager\EmployeeManager\EmployeeManager\EmployeeManager.Web\bin\Ninject.Web.Common.WebHost.dll
+C:\Users\zacha\Google Drive\Documents\DMACC\Advanced C#\EmployeeManager\EmployeeManager\EmployeeManager\EmployeeManager.Web\bin\Ninject.Web.Mvc.dll
+C:\Users\zacha\Google Drive\Documents\DMACC\Advanced C#\EmployeeManager\EmployeeManager\EmployeeManager\EmployeeManager.Web\bin\WebActivatorEx.dll
+C:\Users\zacha\Google Drive\Documents\DMACC\Advanced C#\EmployeeManager\EmployeeManager\EmployeeManager\EmployeeManager.Web\bin\Ninject.xml
+C:\Users\zacha\Google Drive\Documents\DMACC\Advanced C#\EmployeeManager\EmployeeManager\EmployeeManager\EmployeeManager.Web\bin\Ninject.Web.Common.xml
+C:\Users\zacha\Google Drive\Documents\DMACC\Advanced C#\EmployeeManager\EmployeeManager\EmployeeManager\EmployeeManager.Web\bin\Ninject.Web.Common.WebHost.xml
+C:\Users\zacha\Google Drive\Documents\DMACC\Advanced C#\EmployeeManager\EmployeeManager\EmployeeManager\EmployeeManager.Web\bin\Ninject.Web.Mvc.xml

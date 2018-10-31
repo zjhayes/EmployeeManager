@@ -1,4 +1,4 @@
-﻿using EmployeeManager.Shared.Orchestrators;
+﻿using EmployeeManager.Shared.Orchestrators.Interfaces;
 using EmployeeManager.Shared.ViewModels;
 using EmployeeManager.Web.Models;
 using System;
@@ -9,8 +9,14 @@ namespace EmployeeManager.Web.Controllers
 {
     public class EmployeeController : Controller
     {
-        private EmployeeOrchestrator _employeeOrchestrator = new EmployeeOrchestrator();
-        // GET: Employee
+        private readonly IEmployeeOrchestrator _employeeOrchestrator;
+
+        public EmployeeController(IEmployeeOrchestrator employeeOrchestrator)
+        {
+            _employeeOrchestrator = employeeOrchestrator;
+        }
+
+        // Get: Employee
         public async Task<ActionResult> Index()
         {
             var employeeDisplayModel = new EmployeeDisplayModel()
@@ -18,6 +24,15 @@ namespace EmployeeManager.Web.Controllers
                 Employees = await _employeeOrchestrator.GetAllEmployees()
             };
             return View(employeeDisplayModel);
+        }
+
+        public async Task<ActionResult> Tenure()
+        {
+            var displayEmployeeTenureModel = new EmployeeDisplayModel()
+            {
+                Employees = await _employeeOrchestrator.GetAllEmployees()
+            };
+            return View(displayEmployeeTenureModel);
         }
 
         public async Task<ActionResult> Create(CreateEmployeeModel employee)

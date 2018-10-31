@@ -1,0 +1,50 @@
+﻿@model EmployeeManager.Web.Models.EmployeeDisplayModel
+
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta name="viewport" content="width=device-width" />
+	<title>Employee Tenure</title>
+</head>
+<body>
+	<div class="container">
+		<h2>Employee Tenure</h2>
+		<div class="table-responsive">
+			<table class="table table-bordered">
+				<thead class="thead-dark">
+					<tr>
+						<th>First Name</th>
+						<th>Last Name</th>
+						<th>Department</th>
+						<th>Years Of Employement</th>
+						<th>Anniversary</th>
+					</tr>
+				</thead>
+				<tbody>
+					@foreach (var employee in Model.Employees)
+					{
+					<tr>
+						<td>
+							@employee.FirstName
+						</td>
+						<td>
+							@employee.LastName
+						</td>
+						<td>
+							@employee.Department
+						</td>
+						<td>
+							@employee.YearsSinceHired
+						</td>
+						<td>
+							@employee.Anniversary
+						</td>
+					</tr>
+					}
+				</tbody>
+			</table>
+		</div>
+	</div>
+</body>
+</html>

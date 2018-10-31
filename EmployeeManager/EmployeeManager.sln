@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeManager.Api", "Empl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeManager.Shared", "EmployeeManager.Shared\EmployeeManager.Shared.csproj", "{F60180D2-7010-420E-87CE-3716A77E0061}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeManager.Test", "EmployeeManager.Test\EmployeeManager.Test.csproj", "{C9292AF1-33BB-49EC-AB02-41E4FE507A98}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{F60180D2-7010-420E-87CE-3716A77E0061}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F60180D2-7010-420E-87CE-3716A77E0061}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F60180D2-7010-420E-87CE-3716A77E0061}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9292AF1-33BB-49EC-AB02-41E4FE507A98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9292AF1-33BB-49EC-AB02-41E4FE507A98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9292AF1-33BB-49EC-AB02-41E4FE507A98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9292AF1-33BB-49EC-AB02-41E4FE507A98}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
