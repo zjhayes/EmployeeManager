@@ -7,6 +7,7 @@ using System.Web.Mvc;
 
 namespace EmployeeManager.Web.Controllers
 {
+    [Authorize]
     public class EmployeeController : Controller
     {
         private readonly IEmployeeOrchestrator _employeeOrchestrator;

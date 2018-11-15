@@ -8,7 +8,6 @@ namespace EmployeeManager.Web.App_Start
     using EmployeeManager.Shared.Orchestrators;
     using EmployeeManager.Shared.Orchestrators.Interfaces;
     using Microsoft.Web.Infrastructure.DynamicModuleHelper;
-
     using Ninject;
     using Ninject.Web.Common;
     using Ninject.Web.Common.WebHost;
@@ -63,6 +62,6 @@ namespace EmployeeManager.Web.App_Start
         private static void RegisterServices(IKernel kernel)
         {
             kernel.Bind<IEmployeeOrchestrator>().To<EmployeeOrchestrator>();
-        }
+        }        
     }
 }

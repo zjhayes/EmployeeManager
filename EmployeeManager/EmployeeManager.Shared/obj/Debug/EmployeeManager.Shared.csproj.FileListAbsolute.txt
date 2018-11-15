@@ -15,3 +15,20 @@ C:\Users\zacha\Google Drive\Documents\DMACC\Advanced C#\EmployeeManager\Employee
 C:\Users\zacha\Google Drive\Documents\DMACC\Advanced C#\EmployeeManager\EmployeeManager\EmployeeManager\EmployeeManager.Shared\obj\Debug\EmployeeManager.Shared.pdb
 C:\Users\zacha\Google Drive\Documents\DMACC\Advanced C#\EmployeeManager\EmployeeManager\EmployeeManager\EmployeeManager.Shared\bin\Debug\Ninject.dll
 C:\Users\zacha\Google Drive\Documents\DMACC\Advanced C#\EmployeeManager\EmployeeManager\EmployeeManager\EmployeeManager.Shared\bin\Debug\Ninject.xml
+C:\Users\zacha\Google Drive\Programs\C#\EmployeeManager\EmployeeManager\EmployeeManager.Shared\bin\Debug\EmployeeManager.Shared.dll.config
+C:\Users\zacha\Google Drive\Programs\C#\EmployeeManager\EmployeeManager\EmployeeManager.Shared\bin\Debug\EmployeeManager.Shared.dll
+C:\Users\zacha\Google Drive\Programs\C#\EmployeeManager\EmployeeManager\EmployeeManager.Shared\bin\Debug\EmployeeManager.Shared.pdb
+C:\Users\zacha\Google Drive\Programs\C#\EmployeeManager\EmployeeManager\EmployeeManager.Shared\bin\Debug\EmployeeManager.Domain.dll
+C:\Users\zacha\Google Drive\Programs\C#\EmployeeManager\EmployeeManager\EmployeeManager.Shared\bin\Debug\EntityFramework.dll
+C:\Users\zacha\Google Drive\Programs\C#\EmployeeManager\EmployeeManager\EmployeeManager.Shared\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\zacha\Google Drive\Programs\C#\EmployeeManager\EmployeeManager\EmployeeManager.Shared\bin\Debug\Ninject.dll
+C:\Users\zacha\Google Drive\Programs\C#\EmployeeManager\EmployeeManager\EmployeeManager.Shared\bin\Debug\EmployeeManager.Domain.pdb
+C:\Users\zacha\Google Drive\Programs\C#\EmployeeManager\EmployeeManager\EmployeeManager.Shared\bin\Debug\EmployeeManager.Domain.dll.config
+C:\Users\zacha\Google Drive\Programs\C#\EmployeeManager\EmployeeManager\EmployeeManager.Shared\bin\Debug\EntityFramework.xml
+C:\Users\zacha\Google Drive\Programs\C#\EmployeeManager\EmployeeManager\EmployeeManager.Shared\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\zacha\Google Drive\Programs\C#\EmployeeManager\EmployeeManager\EmployeeManager.Shared\bin\Debug\Ninject.xml
+C:\Users\zacha\Google Drive\Programs\C#\EmployeeManager\EmployeeManager\EmployeeManager.Shared\obj\Debug\EmployeeManager.Shared.csprojAssemblyReference.cache
+C:\Users\zacha\Google Drive\Programs\C#\EmployeeManager\EmployeeManager\EmployeeManager.Shared\obj\Debug\EmployeeManager.Shared.csproj.CoreCompileInputs.cache
+C:\Users\zacha\Google Drive\Programs\C#\EmployeeManager\EmployeeManager\EmployeeManager.Shared\obj\Debug\EmployeeManager.Shared.csproj.CopyComplete
+C:\Users\zacha\Google Drive\Programs\C#\EmployeeManager\EmployeeManager\EmployeeManager.Shared\obj\Debug\EmployeeManager.Shared.dll
+C:\Users\zacha\Google Drive\Programs\C#\EmployeeManager\EmployeeManager\EmployeeManager.Shared\obj\Debug\EmployeeManager.Shared.pdb

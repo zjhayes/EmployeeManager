@@ -27,3 +27,18 @@ C:\Users\zacha\Google Drive\Documents\DMACC\Advanced C#\EmployeeManager\Employee
 C:\Users\zacha\Google Drive\Documents\DMACC\Advanced C#\EmployeeManager\EmployeeManager\EmployeeManager\EmployeeManager.Domain\obj\Debug\EmployeeManager.Domain.pdb
 C:\Users\zacha\Google Drive\Documents\DMACC\Advanced C#\EmployeeManager\EmployeeManager\EmployeeManager\EmployeeManager.Domain\obj\Debug\EmployeeManager.Domain.Migrations.Mig2.resources
 C:\Users\zacha\Google Drive\Documents\DMACC\Advanced C#\EmployeeManager\EmployeeManager\EmployeeManager\EmployeeManager.Domain\obj\Debug\EmployeeManager.Domain.csprojAssemblyReference.cache
+C:\Users\zacha\Google Drive\Programs\C#\EmployeeManager\EmployeeManager\EmployeeManager.Domain\bin\Debug\EmployeeManager.Domain.dll.config
+C:\Users\zacha\Google Drive\Programs\C#\EmployeeManager\EmployeeManager\EmployeeManager.Domain\bin\Debug\EmployeeManager.Domain.dll
+C:\Users\zacha\Google Drive\Programs\C#\EmployeeManager\EmployeeManager\EmployeeManager.Domain\bin\Debug\EmployeeManager.Domain.pdb
+C:\Users\zacha\Google Drive\Programs\C#\EmployeeManager\EmployeeManager\EmployeeManager.Domain\bin\Debug\EntityFramework.dll
+C:\Users\zacha\Google Drive\Programs\C#\EmployeeManager\EmployeeManager\EmployeeManager.Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\zacha\Google Drive\Programs\C#\EmployeeManager\EmployeeManager\EmployeeManager.Domain\bin\Debug\EntityFramework.xml
+C:\Users\zacha\Google Drive\Programs\C#\EmployeeManager\EmployeeManager\EmployeeManager.Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\zacha\Google Drive\Programs\C#\EmployeeManager\EmployeeManager\EmployeeManager.Domain\obj\Debug\EmployeeManager.Domain.csprojAssemblyReference.cache
+C:\Users\zacha\Google Drive\Programs\C#\EmployeeManager\EmployeeManager\EmployeeManager.Domain\obj\Debug\EmployeeManager.Domain.Migrations.InitialDatabaseCreationWithEmployees.resources
+C:\Users\zacha\Google Drive\Programs\C#\EmployeeManager\EmployeeManager\EmployeeManager.Domain\obj\Debug\EmployeeManager.Domain.Migrations.Mig2.resources
+C:\Users\zacha\Google Drive\Programs\C#\EmployeeManager\EmployeeManager\EmployeeManager.Domain\obj\Debug\EmployeeManager.Domain.csproj.GenerateResource.cache
+C:\Users\zacha\Google Drive\Programs\C#\EmployeeManager\EmployeeManager\EmployeeManager.Domain\obj\Debug\EmployeeManager.Domain.csproj.CoreCompileInputs.cache
+C:\Users\zacha\Google Drive\Programs\C#\EmployeeManager\EmployeeManager\EmployeeManager.Domain\obj\Debug\EmployeeManager.Domain.csproj.CopyComplete
+C:\Users\zacha\Google Drive\Programs\C#\EmployeeManager\EmployeeManager\EmployeeManager.Domain\obj\Debug\EmployeeManager.Domain.dll
+C:\Users\zacha\Google Drive\Programs\C#\EmployeeManager\EmployeeManager\EmployeeManager.Domain\obj\Debug\EmployeeManager.Domain.pdb
