@@ -50,6 +50,7 @@
   <ItemGroup>
     <Compile Include="EmployeeContext.cs" />
     <Compile Include="Entities\Employee.cs" />
+    <Compile Include="Entities\Error.cs" />
     <Compile Include="Migrations\201810110402587_InitialDatabaseCreationWithEmployees.cs" />
     <Compile Include="Migrations\201810110402587_InitialDatabaseCreationWithEmployees.Designer.cs">
       <DependentUpon>201810110402587_InitialDatabaseCreationWithEmployees.cs</DependentUpon>
@@ -57,6 +58,10 @@
     <Compile Include="Migrations\201810172353318_Mig2.cs" />
     <Compile Include="Migrations\201810172353318_Mig2.Designer.cs">
       <DependentUpon>201810172353318_Mig2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201812031550473_ErrorDB.cs" />
+    <Compile Include="Migrations\201812031550473_ErrorDB.Designer.cs">
+      <DependentUpon>201812031550473_ErrorDB.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -71,6 +76,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201810172353318_Mig2.resx">
       <DependentUpon>201810172353318_Mig2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812031550473_ErrorDB.resx">
+      <DependentUpon>201812031550473_ErrorDB.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
