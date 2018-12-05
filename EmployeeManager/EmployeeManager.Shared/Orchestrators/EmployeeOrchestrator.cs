@@ -59,6 +59,39 @@ namespace EmployeeManager.Shared.Orchestrators
             return employees;
         }
 
+        public async Task<EmployeeViewModel> GetEmployee(string guidString)
+        {
+            List<EmployeeViewModel> employees;
+
+            if (Guid.TryParse(guidString, out Guid inputId))
+            {
+                employees = await _employeeContext.Employees.Select(x => new EmployeeViewModel
+                {
+                    EmployeeId = x.EmployeeId,
+                    FirstName = x.FirstName,
+                    MiddleName = x.MiddleName,
+                    LastName = x.LastName,
+                    BirthDate = x.BirthDate,
+                    Department = x.Department
+                }).ToListAsync();
+
+                EmployeeViewModel employee = new EmployeeViewModel();
+
+                while (employees.Remove(employee))
+                {
+                    if (Guid.Equals(employee.EmployeeId, inputId))
+                    {
+                        return employee;
+                    }
+
+                }
+
+                return new EmployeeViewModel();
+            }
+
+            return null;
+        }
+
         public async Task<EmployeeViewModel> SearchEmployee(string searchString)
         {
             var employee = await _employeeContext.Employees
