@@ -20,17 +20,17 @@
 }
 
 function updateEmployee() {
-	var employeeId = $("employeeId").val();
-	var firstName = $("firstName").val();
-	var middleName = $("middleName").val();
-	var lastName = $("lastName").val();
-	var dateHired = $("dateHired").val();
-	var birthDate = $("birthDate").val();
-	var salary = $("salary").val();
-	var recurrence = $("recurrence").val();
-	var jobTitle = $("jobTitle").val();
-	var department = $("department").val();
-	var availability = $("availability").val();
+	var employeeId = $("#employeeId").val();
+	var firstName = $("#firstName").val();
+	var middleName = $("#middleName").val();
+	var lastName = $("#lastName").val();
+	var dateHired = $("#dateHired").val();
+	var birthDate = $("#birthDate").val();
+	var salary = $("#salary").val();
+	var recurrence = $("#recurrence").val();
+	var jobTitle = $("#jobTitle").val();
+	var department = $("#department").val();
+	var availability = $("#availability").val();
 
 	$.ajax({
 		url: "UpdateEmployee",

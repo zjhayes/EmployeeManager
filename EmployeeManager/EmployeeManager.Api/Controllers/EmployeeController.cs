@@ -1,6 +1,6 @@
-﻿using EmployeeManager.Shared.Orchestrators;
+﻿using EmployeeManager.Domain.Entities;
+using EmployeeManager.Shared.Orchestrators;
 using EmployeeManager.Shared.ViewModels;
-using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using System.Web.Http;
@@ -17,20 +17,19 @@ namespace EmployeeManager.Api.Controllers
             _employeeOrchestrator = new EmployeeOrchestrator();
         }
 
-        [Route("api/v1/employee")]
+        [Route("api/v1/employees")]
         public async Task<List<EmployeeViewModel>> GetAllEmployees()
         {
             var employees = await _employeeOrchestrator.GetAllEmployees();
+
             return employees;
         }
 
-        [Route("api/v1/employee/{id}")]
-        public async Task<List<EmployeeViewModel>> GetEmployee(string id)
+        [Route("api/v1/employees/{id}")]
+        public async Task<EmployeeViewModel> GetAllEmployees(string id)
         {
-            var employee = await _employeeOrchestrator.GetEmployee(id.ToString());
-            List<EmployeeViewModel> employeeList = new List<EmployeeViewModel>();
-            employeeList.Add(employee);
-            return employeeList;
+            var employee = await _employeeOrchestrator.GetEmployee(id);
+            return employee;
         }
     }
 }

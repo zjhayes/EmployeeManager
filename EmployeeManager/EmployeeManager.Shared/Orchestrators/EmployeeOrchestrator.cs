@@ -59,37 +59,28 @@ namespace EmployeeManager.Shared.Orchestrators
             return employees;
         }
 
-        public async Task<EmployeeViewModel> GetEmployee(string guidString)
+        public async Task<EmployeeViewModel> GetEmployee(string searchString)
         {
-            List<EmployeeViewModel> employees;
+            Guid guid = new Guid(searchString);
+            var employee = await _employeeContext.Employees.FindAsync(guid);
 
-            if (Guid.TryParse(guidString, out Guid inputId))
+
+            var viewModel = new EmployeeViewModel
             {
-                employees = await _employeeContext.Employees.Select(x => new EmployeeViewModel
-                {
-                    EmployeeId = x.EmployeeId,
-                    FirstName = x.FirstName,
-                    MiddleName = x.MiddleName,
-                    LastName = x.LastName,
-                    BirthDate = x.BirthDate,
-                    Department = x.Department
-                }).ToListAsync();
+                EmployeeId = employee.EmployeeId,
+                FirstName = employee.FirstName,
+                MiddleName = employee.MiddleName,
+                LastName = employee.LastName,
+                DateHired = employee.DateHired,
+                BirthDate = employee.BirthDate,
+                Salary = employee.Salary,
+                Recurrence = employee.Recurrence,
+                JobTitle = employee.JobTitle,
+                Department = employee.Department,
+                Availability = employee.Availability
+            };
 
-                EmployeeViewModel employee = new EmployeeViewModel();
-
-                while (employees.Remove(employee))
-                {
-                    if (Guid.Equals(employee.EmployeeId, inputId))
-                    {
-                        return employee;
-                    }
-
-                }
-
-                return new EmployeeViewModel();
-            }
-
-            return null;
+            return viewModel;
         }
 
         public async Task<EmployeeViewModel> SearchEmployee(string searchString)
