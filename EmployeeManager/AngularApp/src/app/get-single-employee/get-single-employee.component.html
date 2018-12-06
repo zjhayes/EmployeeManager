@@ -1,0 +1,15 @@
+<div *ngif="employee">
+	<h2>{{employee.FirstName}} Details</h2>
+	<div>
+		<span>
+			Id:
+		</span>
+		{{employee.EmployeeId}}
+	</div>
+	<div>
+		<label>
+			Name:
+			<input[(ngModel)]="employee.FirstName" placeholder="Name"/>
+		</label>
+	</div>
+</div>

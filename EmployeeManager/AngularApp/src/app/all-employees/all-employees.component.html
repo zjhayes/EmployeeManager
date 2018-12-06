@@ -1,0 +1,25 @@
+<h2>All Employees</h2>
+
+<table>
+	<thead>
+		<tr>
+			<td>Employee Id</td>
+			<td>First Name</td>
+			<td>Middle Name</td>
+			<td>Last Name</td>
+		</tr>
+	</thead>
+	<tbody>
+		<tr *ngFor="let employee of employees"[class.selected]="employee === selectedEmployee"
+		(click)="onSelected(employee)">
+			<td>{{employee.EmployeeId}}</td>
+			<td>{{employee.FirstName}}</td>
+			<td>{{employee.MiddleName}}</td>
+			<td>{{employee.LastName}}</td>
+		</tr>
+	</tbody>
+</table>
+
+<app-get-single-employee[employee]="selectedEmployee"></app-get-single-employee>
+
+		
