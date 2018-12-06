@@ -59,6 +59,32 @@ namespace EmployeeManager.Shared.Orchestrators
             return employees;
         }
 
+        public async Task<EmployeeViewModel> GetEmployeeById(Guid employeeId)
+        {
+            var employee = await _employeeContext.Employees
+                .SingleOrDefaultAsync(x => x.EmployeeId == employeeId);
+            if(employee == null)
+            {
+                return new EmployeeViewModel();
+            }
+
+            return new EmployeeViewModel()
+            {
+                EmployeeId = employee.EmployeeId,
+                FirstName = employee.FirstName,
+                MiddleName = employee.MiddleName,
+                LastName = employee.LastName,
+                DateHired = employee.DateHired,
+                BirthDate = employee.BirthDate,
+                Salary = employee.Salary,
+                Recurrence = employee.Recurrence,
+                JobTitle = employee.JobTitle,
+                Department = employee.Department,
+                Availability = employee.Availability
+
+            };
+        }
+
         public async Task<EmployeeViewModel> GetEmployee(string searchString)
         {
             Guid guid = new Guid(searchString);
