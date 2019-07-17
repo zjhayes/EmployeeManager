@@ -1,7 +1,6 @@
 # Auto detect text files and perform LF normalization
 * text=auto
 
-*.js linguist-vendored
-*.ps1 linguist-vendored
+* linguist-vendored
 *.cs linguist-vendored=false
 
