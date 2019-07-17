@@ -2,5 +2,6 @@
 * text=auto
 
 *.js linguist-vendored
+*.ps1 linguist-vendored
 *.cs linguist-vendored=false
 
