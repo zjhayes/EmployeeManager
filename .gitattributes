@@ -2,3 +2,5 @@
 * text=auto
 
 *.js linguist-vendored
+*.cs linguist-vendored=false
+
